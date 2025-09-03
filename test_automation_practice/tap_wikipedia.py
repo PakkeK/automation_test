@@ -38,7 +38,7 @@ except Exception as e:
 try:
     search_input = driver.find_element("id", "Wikipedia1_wikipedia-search-input")
     print("Найти поле ввода Wikipedia по id - Успех")
-    print(f"Элемент: {search_input.tag_name}, placeholder: {serch_input.get_attribute('placeholder')}")
+    print(f"Элемент: {search_input.tag_name}, placeholder: {search_input.get_attribute('placeholder')}")
 except Exception as e:
     print (f"Найти поле ввода Wikipedia по id - Ошибка: {e}")
 

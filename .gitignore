@@ -43,3 +43,7 @@ Thumbs.db
 
 # Папки с зависимостями
 node_modules/
+
+# Игнорировать все папки, начинающиеся с "lesson_" или "homework_"
+lesson_*/
+homework_*/

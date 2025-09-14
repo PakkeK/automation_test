@@ -1,0 +1,45 @@
+# Виртуальное окружение Python
+venv/
+.env/
+venv*/
+.venv/
+
+# Исполняемые файлы и драйверы
+chromedriver
+chromedriver.exe
+geckodriver
+*.exe
+*.dll
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Конфигурационные файлы с敏感 данными
+config.ini
+secrets.json
+credentials.txt
+*.env
+.env.local
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Папки с зависимостями
+node_modules/
